@@ -14,9 +14,6 @@
     "default": "README.md"
   },
   "funding": {
-    "openCollective": "",
-    "patreon": "",
-    "github": "",
     "custom": [
     ]
   },
@@ -24,6 +21,5 @@
     "dark"
   ],
   "keywords": [
-    "dark", "high-contrast", "black"
   ]
 }
