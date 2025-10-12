@@ -1,33 +1,29 @@
 {
-  "name": "theme-sample",
-  "author": "Vanessa",
-  "url": "https://github.com/siyuan-note/theme-sample",
-  "version": "0.0.3",
-  "minAppVersion": "2.8.8",
+  "name": "alens-black-theme",
+  "author": "Alen Siljak",
+  "url": "https://github.com/alensiljak/alens-black-theme",
+  "version": "0.0.1",
+  "minAppVersion": "3.0.0",
   "displayName": {
-    "default": "Theme Sample",
-    "zh_CN": "主题示例"
+    "default": "Alen's Black Theme"
   },
   "description": {
-    "default": "This is a theme sample",
-    "zh_CN": "这是一个主题示例"
+    "default": "A high-contrast dark theme for SiYuan"
   },
   "readme": {
-    "default": "README.md",
-    "zh_CN": "README_zh_CN.md"
+    "default": "README.md"
   },
   "funding": {
     "openCollective": "",
     "patreon": "",
     "github": "",
     "custom": [
-      "https://ld246.com/sponsor"
     ]
   },
   "modes": [
-    "light"
+    "dark"
   ],
   "keywords": [
-    "sample", "示例"
+    "dark", "high-contrast", "black"
   ]
 }
