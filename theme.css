@@ -8,3 +8,21 @@
 	font-size: 9pt;
 	opacity: 0.5;
 }
+
+.protyle-wysiwyg .list {
+    color: yellow;
+    padding: 0;
+    margin: 0;
+    /*line-height: 1;*/
+}
+.protyle-wysiwyg .list>.li {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*.protyle-wysiwyg .list>.li>.p {}*/
+
+.protyle-wysiwyg div.h1 {
+    color: red;
+    margin-top: 0.25rem;
+}
