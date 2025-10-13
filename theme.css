@@ -2,6 +2,11 @@
     --b3-theme-background: #000000;
 }
 
+/* clear all padding */
+.protyle-wysiwyg [data-node-id] {
+    padding: 1px;
+}
+
 /* Add the fold indicator to collapsed headings */
 .protyle-wysiwyg div[fold="1"][data-type="NodeHeading"]:before{
 	content: "\276F";
@@ -9,9 +14,13 @@
 	opacity: 0.5;
 }
 
-.protyle-wysiwyg div.h1 {
+.protyle-wysiwyg div.h1, div.h2, div.h3, div.h4, div.h5, div.h6 {
     /*color: red;*/
     margin-top: 0.25rem;
+    padding: 0;
+}
+div.p {
+    /*color: red;*/
     padding: 0;
 }
 
