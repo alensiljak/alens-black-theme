@@ -13,6 +13,7 @@
     padding: 1px;
     /*padding: 0;*/
     /*margin: 0;*/
+    margin-top: 0;
 }
 
 /* Add the fold indicator to collapsed headings */
@@ -22,8 +23,9 @@
 	opacity: 0.5;
 }
 
-.protyle-wysiwyg [data-node-id] div.h1, div.h2, div.h3, div.h4, div.h5, div.h6 {
-    margin-top: 0.75rem;
+.protyle-wysiwyg [data-node-id].h1, [data-node-id].h2, [data-node-id].h3,
+    [data-node-id].h4, [data-node-id].h5, [data-node-id].h6 {
+    margin-top: 0.25rem;
 }
 
 .protyle-wysiwyg [data-node-id].p {
