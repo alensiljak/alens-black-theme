@@ -9,6 +9,12 @@
 	opacity: 0.5;
 }
 
+.protyle-wysiwyg div.h1 {
+    /*color: red;*/
+    margin-top: 0.25rem;
+    padding: 0;
+}
+
 .protyle-wysiwyg .list {
     /*color: yellow;*/
     padding: 0;
@@ -21,8 +27,3 @@
 }
 
 /*.protyle-wysiwyg .list>.li>.p {}*/
-
-.protyle-wysiwyg div.h1 {
-    /*color: red;*/
-    margin-top: 0.25rem;
-}
