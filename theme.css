@@ -1,10 +1,18 @@
 :root {
+    /* background color */
     --b3-theme-background: #000000;
+    /* font size */
+    /*--b3-font-size: 21px;*/
+    --b3-font-size-editor: 16px;
+    /*--b3-font-family: 'Arial', 'Helvetica', 'Roboto', sans-serif;*/
+    --b3-font-family-protyle: sans-serif;
 }
 
 /* clear all padding */
 .protyle-wysiwyg [data-node-id] {
     padding: 1px;
+    /*padding: 0;*/
+    /*margin: 0;*/
 }
 
 /* Add the fold indicator to collapsed headings */
@@ -14,30 +22,34 @@
 	opacity: 0.5;
 }
 
-.protyle-wysiwyg div.h1, div.h2, div.h3, div.h4, div.h5, div.h6 {
-    /*color: red;*/
-    margin-top: 0.25rem;
-    padding: 0;
+.protyle-wysiwyg [data-node-id] div.h1, div.h2, div.h3, div.h4, div.h5, div.h6 {
+    margin-top: 0.75rem;
 }
-div.p {
-    /*color: red;*/
+
+.protyle-wysiwyg [data-node-id].p {
     padding: 0;
 }
 
 /* Lists */
-.protyle-wysiwyg .list {
-    /*color: yellow;*/
-    padding: 0;
-    margin: 0;
+/*.protyle-wysiwyg .list {*/
+    /*padding: 0;*/
+    /*margin: 0;*/
     /*line-height: 1;*/
-}
-.protyle-wysiwyg .list>.li {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.protyle-wysiwyg .list>.li>.protyle-action {
+/*}*/
+/*.protyle-wysiwyg [data-node-id].li::before {
+    top: calc(1.625em + 4px);
     height: 1.625em;
+}*/
+.protyle-wysiwyg [data-node-id].list>.li {
+    margin: 0;
+    min-height: calc(1.625em + 4px);
 }
-.protyle-wysiwyg .list>.li>.p {
-    padding: 0;
+/*.protyle-wysiwyg .list>.li>.protyle-action {
+    height: calc(1.625em + 4px);
+}*/
+.protyle-wysiwyg [data-node-id].li>.protyle-action {
+    height: calc(1.625em + 4px);
+}
+.protyle-wysiwyg [data-node-id].list>.li>.p {
+    padding: 1px;
 }
