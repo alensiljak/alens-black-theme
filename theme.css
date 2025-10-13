@@ -15,6 +15,7 @@
     padding: 0;
 }
 
+/* Lists */
 .protyle-wysiwyg .list {
     /*color: yellow;*/
     padding: 0;
@@ -25,5 +26,9 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-
-/*.protyle-wysiwyg .list>.li>.p {}*/
+.protyle-wysiwyg .list>.li>.protyle-action {
+    height: 1.625em;
+}
+.protyle-wysiwyg .list>.li>.p {
+    padding: 0;
+}
