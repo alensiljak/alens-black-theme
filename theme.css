@@ -18,8 +18,8 @@
     margin-top: 0;
 }
 
-/* Add the fold indicator to collapsed headings */
-.protyle-wysiwyg div[fold="1"][data-type="NodeHeading"]:before{
+/* Add the fold indicator to collapsed blocks */
+.protyle-wysiwyg div[fold="1"][data-node-id]:before{
 	content: "\276F";
 	font-size: 9pt;
 	opacity: 0.5;
