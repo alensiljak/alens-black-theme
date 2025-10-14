@@ -12,6 +12,12 @@
     }
 }
 
+/* page action icons */
+.block__icon svg {
+    width: 16px;
+    height: 16px;
+}
+
 /* clear all padding */
 .protyle-wysiwyg [data-node-id] {
     padding: 1px;
