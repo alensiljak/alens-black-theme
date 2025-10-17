@@ -1,9 +1,25 @@
+@font-face {
+    font-family: 'RobotoRegular';
+        src: url('https://fontlibrary.org//assets/fonts/font-of-primalis/2e3729c84817ad595f48b6f8099e82f5/11eabca2251325cfc5589c9c6fb57b46/RobotoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FiraCodeMedium';
+        src: url('/assets/fonts/fira-code/6aa58bd032ec58aecd8fa5af611a6882/b7f872bdcd6635d32fc0467b32094fec/FiraCodeMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     /* font size */
-    /*--b3-font-size: 21px;*/
     --b3-font-size-editor: 16px;
-    /*--b3-font-family: 'Arial', 'Helvetica', 'Roboto', sans-serif;*/
-    --b3-font-family-protyle: sans-serif;
+    --b3-font-family: "RobotoRegular", "Emojis Additional", "Emojis Reset", BlinkMacSystemFont, Helvetica, "Luxi Sans", "DejaVu Sans", arial, sans-serif, emojis;
+    --b3-font-family-protyle: "B612", var(--b3-font-family);
+    --b3-font-family-code: "FiraCodeMedium", "Emojis Additional", "Emojis Reset", "JetBrainsMono-Regular", mononoki, Consolas, "Liberation Mono", var(--b3-font-family);
+    /*--b3-font-family-graph: arial;*/
+    /*--b3-font-family-emoji: "Emojis Additional", emojis;*/
+    /*--b3-font-family-math: KaTeX_Math;*/
 }
 /* background colour depends on user preferences */
 @media (prefers-color-scheme: dark) {
