@@ -7,6 +7,7 @@ The theme is designed to be dark and minimalistic, with a focus on readability a
 # Features
 
 - Black background for better contrast. Better text visibility.
+- Also has a light mode. Useful for e-Ink devices.
 - Improved readability with fonts for text and code.
 - Indicator for collapsed headings.
 - Space between list items and paragraphs is smaller.
